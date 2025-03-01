@@ -1,4 +1,5 @@
 ---
+layout: default
 title: "Java Datatypes"
 date: 2025-02-28
 ---
