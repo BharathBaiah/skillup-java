@@ -2,7 +2,7 @@ theme:  jekyll-theme-cayman
 
 title: Skillup Java for OCP
 
-include: ["_pages"]
+include: ["_posts"]
 
 author: Bharath Kumar Baiah
 description: Tight the Loose Ends in Java OCP
