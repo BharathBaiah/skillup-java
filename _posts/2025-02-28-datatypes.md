@@ -234,19 +234,20 @@ String method called
 
 ---
 
-# **Summary of Method Resolution Order**
-| Case | Preferred Method |
-|------|----------------|
-| **Exact match** | **Chosen first** |
-| **Primitive vs. Wrapper** | **Primitive is preferred** |
-| **Widening vs. Autoboxing** | **Widening is preferred** |
-| **Autoboxing vs. Varargs** | **Autoboxing is preferred** |
-| **Widening vs. Varargs** | **Widening is preferred** |
-| **Autoboxing + Widening** | **NOT allowed** |
-| **Varargs** | **Last resort** |
-| **Null Argument** | **Most specific method chosen** |
+## 📌 Summary Table of Method Resolution Order
 
----
+Here is a summary of Java method resolution order.
+
+| Case                        | Preferred Method             |
+|-----------------------------|-----------------------------|
+| **Exact match**             | Chosen first                |
+| **Primitive vs. Wrapper**   | Primitive is preferred      |
+| **Widening vs. Autoboxing** | Widening is preferred       |
+| **Autoboxing vs. Varargs**  | Autoboxing is preferred     |
+| **Widening vs. Varargs**    | Widening is preferred       |
+| **Autoboxing + Widening**   | Not allowed                 |
+| **Varargs**                 | Last resort                 |
+| **Null Argument**           | Most specific method chosen |
 
 # **Conclusion**
 - **Primitive types are always preferred over wrapper classes.**
